@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>175ffddc-1e28-4c88-9c40-09c30ed5c841</ProjectGuid>
+    <ProjectGuid>{4A73B7B3-131C-46DB-A541-2F80B5C4F22C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ch5_essential_features</RootNamespace>
