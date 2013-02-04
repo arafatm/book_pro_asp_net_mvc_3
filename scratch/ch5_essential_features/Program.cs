@@ -21,10 +21,14 @@ namespace ch5_essential_features
     {
 
       // create a new Product object
-      Product myProduct = new Product();
-
-      // set the property value
-      myProduct.Name = "Kayak";
+      Product myProduct = new Product
+      {
+        ProductID = 100,
+        Name = "Boat",
+        Description = "A boat for one person",
+        Price = 275M,
+        Category = "Watersports"
+      };
 
       // get the property
       string productName = myProduct.Name;
