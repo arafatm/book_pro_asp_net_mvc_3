@@ -42,22 +42,14 @@ namespace ch5_essential_features
             new Product {Name = "Corner flag", Category = "Soccer", Price = 34.95M}
         };
 
-      // define the array to hold the results
-      Product[] results = new Product[2];
+      var results = from product in products
+                    orderby product.Price ascending
+                    select new {
+                      product.Name,
+                      product.Price
+                    };
 
-      // sort the contents of the array
-      Array.Sort(products,
-        (item1, item2) =>
-        {
-          return Comparer<decimal>.Default.Compare(item1.Price, item2.Price);
-        }
-      );
-
-      // get the first three items in the array as the results
-      Array.Copy(products, results, 2);
-
-      // print out the names
-      foreach (Product p in results)
+      foreach (var p in results)
       {
         Console.WriteLine("Item: {0}, Cost: {1}", p.Name, p.Price);
       }
