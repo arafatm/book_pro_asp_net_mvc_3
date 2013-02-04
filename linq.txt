@@ -1,0 +1,29 @@
+Some Useful LINQ Extension Methods
+
+Extension           | Deferred
+- All               |  No
+- Any               |  No
+- Contains          |  No
+- Count             |  No
+- First             |  No
+- FirstOrDefault    |  No 
+- Last              |  No
+- LastOrDefault     |  No 
+- Max               |  No
+- Min               |  No
+- OrderBy           | Yes
+- OrderByDescending | Yes
+- Reverse           | Yes
+- Select            | Yes
+- SelectMany        | Yes
+- Single            |  No
+- SingleOrDefault   |  No
+- Skip              | Yes
+- SkipWhile         | Yes
+- Sum               |  No
+- Take              | Yes
+- TakeWhile         | Yes
+- ToArray           |  No
+- ToDictionary      |  No
+- ToList            |  No
+- Where             | Yes
